@@ -15,6 +15,13 @@
 		449B90EA1F5CF79400FB8C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449B90E81F5CF79400FB8C9C /* LaunchScreen.storyboard */; };
 		449B90F51F5CF79400FB8C9C /* JMModelExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B90F41F5CF79400FB8C9C /* JMModelExampleTests.m */; };
 		449B91001F5CF79400FB8C9C /* JMModelExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B90FF1F5CF79400FB8C9C /* JMModelExampleUITests.m */; };
+		449B91101F5CF8AD00FB8C9C /* JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B910F1F5CF8AD00FB8C9C /* JMModel.m */; };
+		449B91171F5CFEE300FB8C9C /* JMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B91161F5CFEE300FB8C9C /* JMUser.m */; };
+		449B911D1F5D2F0900FB8C9C /* JMStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B911C1F5D2F0900FB8C9C /* JMStatus.m */; };
+		449B91201F5D320200FB8C9C /* JMStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B911F1F5D320200FB8C9C /* JMStatusResult.m */; };
+		449B91231F5D32A900FB8C9C /* JMAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B91221F5D32A900FB8C9C /* JMAd.m */; };
+		449B91261F5D3AC100FB8C9C /* JMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B91251F5D3AC100FB8C9C /* JMStudent.m */; };
+		449B91291F5D3ADF00FB8C9C /* JMBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B91281F5D3ADF00FB8C9C /* JMBag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,11 @@
 
 /* Begin PBXFileReference section */
 		449B90D71F5CF79400FB8C9C /* JMModelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMModelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		449B90DB1F5CF79400FB8C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		449B90DD1F5CF79400FB8C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		449B90DE1F5CF79400FB8C9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		449B90E01F5CF79400FB8C9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		449B90E11F5CF79400FB8C9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		449B90DB1F5CF79400FB8C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
+		449B90DD1F5CF79400FB8C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		449B90DE1F5CF79400FB8C9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		449B90E01F5CF79400FB8C9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		449B90E11F5CF79400FB8C9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		449B90E41F5CF79400FB8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		449B90E61F5CF79400FB8C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449B90E91F5CF79400FB8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,22 @@
 		449B90FB1F5CF79400FB8C9C /* JMModelExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMModelExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449B90FF1F5CF79400FB8C9C /* JMModelExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMModelExampleUITests.m; sourceTree = "<group>"; };
 		449B91011F5CF79400FB8C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449B910E1F5CF8AD00FB8C9C /* JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMModel.h; sourceTree = "<group>"; };
+		449B910F1F5CF8AD00FB8C9C /* JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMModel.m; sourceTree = "<group>"; };
+		449B91151F5CFEE300FB8C9C /* JMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMUser.h; sourceTree = "<group>"; };
+		449B91161F5CFEE300FB8C9C /* JMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMUser.m; sourceTree = "<group>"; };
+		449B91181F5CFF8E00FB8C9C /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		449B911A1F5D2BC100FB8C9C /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		449B911B1F5D2F0900FB8C9C /* JMStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStatus.h; sourceTree = "<group>"; };
+		449B911C1F5D2F0900FB8C9C /* JMStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStatus.m; sourceTree = "<group>"; };
+		449B911E1F5D320200FB8C9C /* JMStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStatusResult.h; sourceTree = "<group>"; };
+		449B911F1F5D320200FB8C9C /* JMStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStatusResult.m; sourceTree = "<group>"; };
+		449B91211F5D32A900FB8C9C /* JMAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAd.h; sourceTree = "<group>"; };
+		449B91221F5D32A900FB8C9C /* JMAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAd.m; sourceTree = "<group>"; };
+		449B91241F5D3AC100FB8C9C /* JMStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStudent.h; sourceTree = "<group>"; };
+		449B91251F5D3AC100FB8C9C /* JMStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStudent.m; sourceTree = "<group>"; };
+		449B91271F5D3ADF00FB8C9C /* JMBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBag.h; sourceTree = "<group>"; };
+		449B91281F5D3ADF00FB8C9C /* JMBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +124,8 @@
 		449B90D91F5CF79400FB8C9C /* JMModelExample */ = {
 			isa = PBXGroup;
 			children = (
-				449B90DD1F5CF79400FB8C9C /* AppDelegate.h */,
-				449B90DE1F5CF79400FB8C9C /* AppDelegate.m */,
-				449B90E01F5CF79400FB8C9C /* ViewController.h */,
-				449B90E11F5CF79400FB8C9C /* ViewController.m */,
-				449B90E31F5CF79400FB8C9C /* Main.storyboard */,
-				449B90E61F5CF79400FB8C9C /* Assets.xcassets */,
-				449B90E81F5CF79400FB8C9C /* LaunchScreen.storyboard */,
-				449B90EB1F5CF79400FB8C9C /* Info.plist */,
+				449B910D1F5CF89F00FB8C9C /* JMModel */,
+				449B91111F5CFBA500FB8C9C /* Classed */,
 				449B90DA1F5CF79400FB8C9C /* Supporting Files */,
 			);
 			path = JMModelExample;
@@ -117,7 +134,11 @@
 		449B90DA1F5CF79400FB8C9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				449B90DB1F5CF79400FB8C9C /* main.m */,
+				449B90E31F5CF79400FB8C9C /* Main.storyboard */,
+				449B90E61F5CF79400FB8C9C /* Assets.xcassets */,
+				449B90E81F5CF79400FB8C9C /* LaunchScreen.storyboard */,
+				449B90EB1F5CF79400FB8C9C /* Info.plist */,
+				449B91181F5CFF8E00FB8C9C /* PrefixHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +159,64 @@
 				449B91011F5CF79400FB8C9C /* Info.plist */,
 			);
 			path = JMModelExampleUITests;
+			sourceTree = "<group>";
+		};
+		449B910D1F5CF89F00FB8C9C /* JMModel */ = {
+			isa = PBXGroup;
+			children = (
+				449B910E1F5CF8AD00FB8C9C /* JMModel.h */,
+				449B910F1F5CF8AD00FB8C9C /* JMModel.m */,
+			);
+			path = JMModel;
+			sourceTree = "<group>";
+		};
+		449B91111F5CFBA500FB8C9C /* Classed */ = {
+			isa = PBXGroup;
+			children = (
+				449B91121F5CFBA500FB8C9C /* Main */,
+				449B91131F5CFBA500FB8C9C /* Model */,
+				449B91141F5CFBA500FB8C9C /* Other */,
+			);
+			path = Classed;
+			sourceTree = "<group>";
+		};
+		449B91121F5CFBA500FB8C9C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				449B90DB1F5CF79400FB8C9C /* main.m */,
+				449B911A1F5D2BC100FB8C9C /* main.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		449B91131F5CFBA500FB8C9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				449B91151F5CFEE300FB8C9C /* JMUser.h */,
+				449B91161F5CFEE300FB8C9C /* JMUser.m */,
+				449B911B1F5D2F0900FB8C9C /* JMStatus.h */,
+				449B911C1F5D2F0900FB8C9C /* JMStatus.m */,
+				449B911E1F5D320200FB8C9C /* JMStatusResult.h */,
+				449B911F1F5D320200FB8C9C /* JMStatusResult.m */,
+				449B91211F5D32A900FB8C9C /* JMAd.h */,
+				449B91221F5D32A900FB8C9C /* JMAd.m */,
+				449B91241F5D3AC100FB8C9C /* JMStudent.h */,
+				449B91251F5D3AC100FB8C9C /* JMStudent.m */,
+				449B91271F5D3ADF00FB8C9C /* JMBag.h */,
+				449B91281F5D3ADF00FB8C9C /* JMBag.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		449B91141F5CFBA500FB8C9C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				449B90E01F5CF79400FB8C9C /* ViewController.h */,
+				449B90E11F5CF79400FB8C9C /* ViewController.m */,
+				449B90DD1F5CF79400FB8C9C /* AppDelegate.h */,
+				449B90DE1F5CF79400FB8C9C /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +352,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449B911D1F5D2F0900FB8C9C /* JMStatus.m in Sources */,
+				449B91101F5CF8AD00FB8C9C /* JMModel.m in Sources */,
+				449B91201F5D320200FB8C9C /* JMStatusResult.m in Sources */,
 				449B90E21F5CF79400FB8C9C /* ViewController.m in Sources */,
 				449B90DF1F5CF79400FB8C9C /* AppDelegate.m in Sources */,
+				449B91291F5D3ADF00FB8C9C /* JMBag.m in Sources */,
+				449B91231F5D32A900FB8C9C /* JMAd.m in Sources */,
+				449B91261F5D3AC100FB8C9C /* JMStudent.m in Sources */,
 				449B90DC1F5CF79400FB8C9C /* main.m in Sources */,
+				449B91171F5CFEE300FB8C9C /* JMUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JMModelExample/PrefixHeader.h";
 				INFOPLIST_FILE = JMModelExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.JMModelExample;
@@ -437,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JMModelExample/PrefixHeader.h";
 				INFOPLIST_FILE = JMModelExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.JMModelExample;
