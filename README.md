@@ -13,7 +13,7 @@ A fast, convenient and nonintrusive conversion between JSON and model.
 > - print all properties in one line code
 > - model copy in one line code
 
-----
+---------
 #### **Installation【安装】**
 From CocoaPods
 ```
@@ -24,6 +24,8 @@ Manually
 JMModel.h
 JMModel.m
 ```
+
+---------
 #### **Examples**
 ```
 update...
