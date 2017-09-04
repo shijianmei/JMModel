@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445723A61F5D767700270AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445723A31F5D767700270AE4 /* AppDelegate.m */; };
+		445723A71F5D767700270AE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445723A51F5D767700270AE4 /* ViewController.m */; };
 		449B90DC1F5CF79400FB8C9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B90DB1F5CF79400FB8C9C /* main.m */; };
-		449B90DF1F5CF79400FB8C9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B90DE1F5CF79400FB8C9C /* AppDelegate.m */; };
-		449B90E21F5CF79400FB8C9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B90E11F5CF79400FB8C9C /* ViewController.m */; };
 		449B90E51F5CF79400FB8C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449B90E31F5CF79400FB8C9C /* Main.storyboard */; };
 		449B90E71F5CF79400FB8C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449B90E61F5CF79400FB8C9C /* Assets.xcassets */; };
 		449B90EA1F5CF79400FB8C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449B90E81F5CF79400FB8C9C /* LaunchScreen.storyboard */; };
@@ -42,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		445723A21F5D767700270AE4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445723A31F5D767700270AE4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445723A41F5D767700270AE4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		445723A51F5D767700270AE4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		449B90D71F5CF79400FB8C9C /* JMModelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMModelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449B90DB1F5CF79400FB8C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
-		449B90DD1F5CF79400FB8C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		449B90DE1F5CF79400FB8C9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
-		449B90E01F5CF79400FB8C9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
-		449B90E11F5CF79400FB8C9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		449B90E41F5CF79400FB8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		449B90E61F5CF79400FB8C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449B90E91F5CF79400FB8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445723A11F5D767700270AE4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				445723A21F5D767700270AE4 /* AppDelegate.h */,
+				445723A31F5D767700270AE4 /* AppDelegate.m */,
+				445723A41F5D767700270AE4 /* ViewController.h */,
+				445723A51F5D767700270AE4 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		449B90CE1F5CF79400FB8C9C = {
 			isa = PBXGroup;
 			children = (
@@ -173,9 +184,9 @@
 		449B91111F5CFBA500FB8C9C /* Classed */ = {
 			isa = PBXGroup;
 			children = (
+				445723A11F5D767700270AE4 /* Other */,
 				449B91121F5CFBA500FB8C9C /* Main */,
 				449B91131F5CFBA500FB8C9C /* Model */,
-				449B91141F5CFBA500FB8C9C /* Other */,
 			);
 			path = Classed;
 			sourceTree = "<group>";
@@ -206,17 +217,6 @@
 				449B91281F5D3ADF00FB8C9C /* JMBag.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		449B91141F5CFBA500FB8C9C /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				449B90E01F5CF79400FB8C9C /* ViewController.h */,
-				449B90E11F5CF79400FB8C9C /* ViewController.m */,
-				449B90DD1F5CF79400FB8C9C /* AppDelegate.h */,
-				449B90DE1F5CF79400FB8C9C /* AppDelegate.m */,
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,9 +354,9 @@
 			files = (
 				449B911D1F5D2F0900FB8C9C /* JMStatus.m in Sources */,
 				449B91101F5CF8AD00FB8C9C /* JMModel.m in Sources */,
+				445723A61F5D767700270AE4 /* AppDelegate.m in Sources */,
 				449B91201F5D320200FB8C9C /* JMStatusResult.m in Sources */,
-				449B90E21F5CF79400FB8C9C /* ViewController.m in Sources */,
-				449B90DF1F5CF79400FB8C9C /* AppDelegate.m in Sources */,
+				445723A71F5D767700270AE4 /* ViewController.m in Sources */,
 				449B91291F5D3ADF00FB8C9C /* JMBag.m in Sources */,
 				449B91231F5D32A900FB8C9C /* JMAd.m in Sources */,
 				449B91261F5D3AC100FB8C9C /* JMStudent.m in Sources */,
@@ -597,6 +597,7 @@
 				449B91061F5CF79400FB8C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449B91071F5CF79400FB8C9C /* Build configuration list for PBXNativeTarget "JMModelExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +606,7 @@
 				449B91091F5CF79400FB8C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449B910A1F5CF79400FB8C9C /* Build configuration list for PBXNativeTarget "JMModelExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +615,7 @@
 				449B910C1F5CF79400FB8C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
