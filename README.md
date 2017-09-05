@@ -17,7 +17,7 @@ A fast, convenient and nonintrusive conversion between JSON and model.
 #### **Installation【安装】**
 From CocoaPods
 ```
-pod 'MJExtension'
+pod 'JMModel'
 ```
 Manually
 ```
