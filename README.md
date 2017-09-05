@@ -4,7 +4,7 @@ JMModel
 A fast, convenient and nonintrusive conversion between JSON and model.
 
 转换速度快、使用简单方便的字典转模型框架
-> **Note:**
+> **功能:**
 
 > - JSON --> Model
 > - Model --> JSON
