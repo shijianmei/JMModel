@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JMModel"
   s.version      = "0.0.1"
-  s.summary      = "A fast, convenient and nonintrusive conversion between JSON and model."
+  s.summary      = " convenient and nonintrusive conversion between JSON and model."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
